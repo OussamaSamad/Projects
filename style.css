@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+.order-cart {
+  margin-top: 4rem;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 1.7rem;
+
+  overflow: hidden;
+}
+.order-cart__img {
+  width: 100%;
+}
+
+.order-cart__content {
+  padding: 3rem;
+  text-align: center;
+}
+.order-cart__heading {
+  color: hsl(223, 47%, 23%);
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1.2rem;
+}
+.order-cart__text {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  padding: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: rgba(56, 41, 244, 0.6);
+}
+.order-cart__btn-cancel:link,
+.order-cart__btn-cancel:visited {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  transition: all 0.3s;
+}
+.order-cart__btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.order-cart__plan {
+  color: hsl(224, 23%, 55%);
+  text-align: left;
+
+  background-color: hsl(225, 100%, 98%);
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.order-cart__icon {
+  width: 4rem;
+}
+.order-cart__plan-title {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+.order-cart__plan-price {
+  font-size: 1.4rem;
+}
+.order-cart__plan-btn:link,
+.order-cart__plan-btn:visited {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.order-cart__plan-btn:hover {
+  color: rgba(56, 41, 244, 0.6);
+}
